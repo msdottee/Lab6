@@ -67,6 +67,14 @@ public class GCCasino {
 
 		if (roll1 == roll2) {
 			System.out.println("You rolled snake eyes!");
+		} else if (roll1 == 2 && roll2 ==2) {
+			System.out.println("You rolled ballerina!");
+		} else if (roll1 == 3 && roll2 == 3) {
+			System.out.println(:You rolled brooklyn forest!);
+		} else if (roll1 == 4 && roll2 == 4) {
+			System.out.println("You rollled a square pair!");
+		} else if (roll1 == 5 && roll2 == 5) {
+			System.out.println("You rolled puppy paws! Yay!");
 		} else if (roll1 == 6 && roll2 ==6) {
 			System.out.println("You rolled box cars!");
 		} else if (roll1 + roll2 == 7) {
