@@ -70,7 +70,7 @@ public class GCCasino {
 		} else if (roll1 == 2 && roll2 ==2) {
 			System.out.println("You rolled ballerina!");
 		} else if (roll1 == 3 && roll2 == 3) {
-			System.out.println(:You rolled brooklyn forest!);
+			System.out.println("You rolled brooklyn forest!");
 		} else if (roll1 == 4 && roll2 == 4) {
 			System.out.println("You rollled a square pair!");
 		} else if (roll1 == 5 && roll2 == 5) {
