@@ -20,7 +20,7 @@ public class GCCasino {
 		while (decision) {
 			
 			System.out.println("Would you like to try your luck and roll those dice?");
-			System.out.print("Enter 1 for the casino floor or 0 if you're under 21 (US/ non-reservation). ");
+			System.out.print("Enter 1 for the casino floor or 0 if you're under 21 (US/non-reservation). ");
 			
 			System.out.println();
 			
@@ -39,7 +39,7 @@ public class GCCasino {
 				
 				break;
 			case 0:
-				System.out.println("Sorry you can't join us. Maybe in a few years!");
+				System.out.println("Sorry you can't join us. Welcome to the casino daycare!");
 				return;
 			default:
 				System.out.println("Invalid choice. Enter 1 or 0.");
