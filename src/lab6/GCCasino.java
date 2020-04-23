@@ -22,6 +22,8 @@ public class GCCasino {
 			System.out.println("Would you like to try your luck and roll those dice?");
 			System.out.print("Enter 1 for the casino floor or 0 if you're under 21 (US/ non-reservation). ");
 			
+			System.out.println();
+			
 			int chance = scnr.nextInt();
 			
 			switch (chance) {
@@ -55,6 +57,8 @@ public class GCCasino {
 				System.out.println("Thanks for playing! Better luck next time!");
 				}
 		}
+		
+		scnr.close();
 	}
 	
 	private static int generateRandomDieRoll(int diceSides) {
