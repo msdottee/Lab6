@@ -46,8 +46,8 @@ public class GCCasino {
 		switch (chance) {
 		case 1:
 			System.out.println("How many sides should each die have?");
-			int diceSides = scnr.nextInt();
-
+			int diceSides = Math.abs(scnr.nextInt());
+            
 			System.out.println("Roll 1:");
 			int roll1 = generateRandomDieRoll(diceSides);
 			int roll2 = generateRandomDieRoll(diceSides);
