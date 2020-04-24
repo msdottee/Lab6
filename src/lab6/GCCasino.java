@@ -32,7 +32,7 @@ public class GCCasino {
 
 				System.out.println("Would you like to try your luck again? (y/n):");
 
-				String answer = scnr.next();
+				String answer = scnr.next().toLowerCase();
 
 				if (answer.equals("n")) {
 					decision = false;
